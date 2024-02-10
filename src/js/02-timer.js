@@ -28,6 +28,8 @@ flatpickr(datetimePicker, {
     selectedDate = new Date(selectedDates[0]);
     if (selectedDate < currentDate) {
       Notiflix.Notify.failure('Please choose a date in the future');
+      startButton.setAttribute('disabled', true);
+      clearInterval(countdownInterval);
     } else {
       startButton.removeAttribute('disabled');
       Notiflix.Notify.success('Date accepted. Press Start to countdown.');
