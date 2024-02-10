@@ -39,6 +39,7 @@ flatpickr(datetimePicker, {
 
 startButton.addEventListener('click', () => {
   Notiflix.Notify.info('So it begins!');
+  startButton.setAttribute('disabled', true);
   countdownInterval = setInterval(() => {
     currentDate = new Date();
     convertMs(selectedDate - currentDate);
