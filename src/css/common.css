@@ -44,3 +44,16 @@ img {
   justify-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.picker {
+  box-shadow: 2px 5px 3px #777;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.startbtn {
+  border-radius: 5px;
+  font-size: 18px;
+  margin-left: 10px;
+  box-shadow: 2px 5px 3px #777;
+}

@@ -12,6 +12,9 @@ let selectedDate = '';
 let currentDate = new Date();
 let countdownInterval;
 
+datetimePicker.classList.add('picker');
+startButton.classList.add('startbtn');
+
 startButton.setAttribute('disabled', true);
 
 flatpickr(datetimePicker, {
