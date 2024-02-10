@@ -19,7 +19,7 @@ img {
 
 .timer {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   padding: 15px;
 }
 
@@ -34,7 +34,7 @@ img {
 
 .value {
   display: block;
-  font-size: 40px;
+  font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
